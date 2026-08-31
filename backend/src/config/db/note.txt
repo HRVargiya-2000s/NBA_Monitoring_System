@@ -1,0 +1,7 @@
+docker cmd for postgres container
+docker run -d --name c2c-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=password123 -e POSTGRES_DB=c2c_db -p 5432:5432 postgres:18
+
+ID is set to auto-increment, so there's no need to write ID generator logic.
+The up.sql file will run when you start the server; it will initialize the schema if not done or if you started a new Postgres container.
+Before the server starts, it will ask: "Do you want to add dummy data? Type yes to continue:".
+Only if you type yes, dummy.sql will run. Any other input will skip dummy data.

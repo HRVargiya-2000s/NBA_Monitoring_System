@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+server.err.log
+server.out.log
+
+# Temporary runtime files
+tmp/
+testing-files/
+*.tmp

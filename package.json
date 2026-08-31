@@ -1,0 +1,12 @@
+{
+  "name": "c2c-nba-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Course-to-Curriculum NBA Portal Repository",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "start:backend": "npm --prefix backend run start",
+    "dev:frontend": "npm --prefix Frontend run dev",
+    "build:frontend": "npm --prefix Frontend run build"
+  }
+}
